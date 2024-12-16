@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Card Quantity</title>
+  </head>
+  <body>
+    <button
+      onclick="
+     console.log(`Card Quantity: ${cardQuantity}`);    
+        "
+    >
+      Show Quantity
+    </button>
+    <button
+      onclick="
+    cardQuantity++;
+    console.log(`Card Quantity: ${cardQuantity}`);  
+       "
+    >
+      Add to card
+    </button>
+    <button
+      onclick="
+        cardQuantity=cardQuantity+2;
+    console.log(`Card Quantity: ${cardQuantity}`);
+       "
+    >
+      +2
+    </button>
+    <button
+      onclick="
+        cardQuantity=cardQuantity+3;
+        console.log('Card was reset');
+    console.log(`Card Quantity: ${cardQuantity}`);
+       
+       "
+    >
+      +3
+    </button>
+    <button
+      onclick="
+        cardQuantity=0;
+    console.log(`Card Quantity: ${cardQuantity}`);
+       
+       "
+    >
+      Reset card
+    </button>
+
+    <script>
+      let cardQuantity = 0;
+      const variable2 = 5;
+      var Variable3 =3;
+    </script>
+  </body>
+</html>
